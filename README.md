@@ -1,4 +1,3 @@
-readme_content = """\
 # Birthday Email Sender
 
 This Python script automatically sends personalized birthday emails.  
