@@ -3,10 +3,11 @@ import smtplib
 import datetime
 import glob
 import random
+import os
 
 my_mail="ykcspor@gmail.com"
 to_mail="yusufkoraycan@yahoo.com"
-password="ukli bxrk lbxm whwm"
+password = os.getenv("EMAIL_PASSWORD")
 
 birthday=pd.read_csv("birthdays.csv")
 name=birthday["name"][0]
